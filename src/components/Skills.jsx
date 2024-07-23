@@ -1,6 +1,6 @@
 export default function Skills() {
   return (
-    <div className="w-4/5 mx-auto bg-slate-200 grid grid-cols-3">
+    <div className="w-4/5 mx-auto bg-slate-200 grid grid-cols-3" id="skills">
       {/* tech stack title */}
       <div className="p-4">
         <h1>Tech Stack</h1>

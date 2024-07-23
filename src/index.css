@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+   scroll-behavior: smooth;
+ }
+
 .separator {
     background-image: linear-gradient(
        to right top,
@@ -23,3 +27,14 @@
      border-radius: 3px;
      margin: 2em auto;
   }
+
+#section-title {
+   font-size:xx-large;
+   font-weight: 500;
+   margin-bottom: 0.4em;
+}
+
+#section-title2 {
+   font-size:x-large;
+   font-weight: 500;
+}

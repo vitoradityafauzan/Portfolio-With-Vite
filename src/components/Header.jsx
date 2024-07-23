@@ -4,8 +4,8 @@ import mainLogo from "../assets/head-icon.png";
 export default function Header() {
   return (
     <>
-      <div className="border-4 border-red-50 flex flex-col justify-center">
-        <img src={mainLogo} alt="Logo" className="h-auto w-[25%] mx-auto" />
+      <div className="w-4/5 mt-3 mb-10 mx-auto border-0 border-red-50 flex flex-col justify-center" id="header">
+        <img src={mainLogo} alt="Logo" className="h-[7em] w-[20em] mx-auto" />
         {/* <h1 className="mx-auto mt-14 text-[3.6em] tracking-widest font-mono">Welcommen</h1> */}
       </div>
       

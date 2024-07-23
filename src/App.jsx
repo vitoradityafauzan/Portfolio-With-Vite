@@ -1,27 +1,32 @@
 import "./index.css";
-import Separator from "./components/Separator";
+import Separator from "./components/common/Separator";
 // eslint-disable-next-line no-undef
 import Header from "./components/Header";
 import Greeting from "./components/Greeting";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import Cv from "./components/Cv";
+import ContactLinks from "./components/common/ContactLinks";
+import Contact from "./components/Contact";
+import Footerr from "./components/Footerr";
 
 function App() {
   return (
     <>
-      <div className="w-screen h-screen flex flex-col justify-items-center">
-        <div className="w-full p-4">
-          <Header />
-        </div>
+      <div className="w-screen h-screen flex flex-col relative justify-items-center">
+        <Header />
         <Greeting />
+        <ContactLinks />
         <Separator />
-        <div className="w-4/5 mx-auto bg-slate-500">
-          <Projects />
-        </div>
+        <Projects />
         <Separator />
         <Skills />
         <Separator />
-        
+        <Cv />
+        <Separator />
+        <Contact />
+        <ContactLinks />
+        <Footerr />
       </div>
     </>
   );
