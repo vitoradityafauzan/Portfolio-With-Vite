@@ -14,8 +14,8 @@ export default function Greeting() {
           <p className="text-2xl xl:text-[1.7em] font-normal font-sarif">Greetings, I am</p>
           <h1 className="text-[1.7em] xl:text-[2.5em] mt-4 text-[#0000ff]">Vito Raditya Fauzan</h1>
           <ul  className="list-disc mt-5 ml-7 md:ml-12 text-[1.2em] xl:text-[1.7em] font-semibold leading-relaxed">
-            <li>Web Develper Enthusiast</li>
-            <li>Backend Develper Enthusiast</li>
+            <li>Web Developer Enthusiast</li>
+            <li>Backend Developer Enthusiast</li>
           </ul>
         </div>
         <div className="border-0 h-auto">
