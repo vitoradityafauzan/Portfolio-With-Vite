@@ -13,7 +13,7 @@ import Footerr from "./components/Footerr";
 function App() {
   return (
     <>
-      <div className="w-screen h-screen flex flex-col relative justify-items-center">
+      <div className="w-screen h-screen flex flex-col relative justify-items-center gap-2">
         <Header />
         <Greeting />
         <ContactLinks />

@@ -4,6 +4,7 @@ import gitlab from "../../assets/icons/gitlab.png";
 import twitter from "../../assets/icons/twitter.png";
 import whatsapp from "../../assets/icons/whatsapp.png";
 import linkedin from "../../assets/icons/linkedin.webp";
+import gmaill from "../../assets/icons/gmail.webp";
 
 export default function ContactLinks() {
   return (
@@ -22,6 +23,11 @@ export default function ContactLinks() {
         <div className="w-[10%] md:w-8 lg:w-12 border-0">
           <a href="https://gitlab.com/vitoradityafauzan" target="_blank" rel="noopener noreferrer" className="w-full h-full">
             <img src={gitlab} alt="gitlab" className="w-full h-full" />
+          </a>
+        </div>
+        <div className="w-[10%] md:w-8 lg:w-12 border-0">
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vitoraditya.f@gmail.com" target="_blank" rel="noopener noreferrer" className="w-full h-full">
+            <img src={gmaill} alt="gmail" className="w-full h-full" />
           </a>
         </div>
         <div className="w-[10%] md:w-8 lg:w-12 border-0">
