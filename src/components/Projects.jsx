@@ -15,7 +15,7 @@ export default function Projects() {
           </div>
           {/* project title */}
           <div className="col-span-2">
-            <Tooltip content="MiKat's Github repository">
+            <Tooltip content="check out the repository">
               <a href="https://github.com/vitoradityafauzan/FE_WebMBTI_TA2_19104063" target="_blank" rel="noopener noreferrer">
                 <Button color="blue">
                   <FaGithub className="mr-2 h-5 w-5" />
@@ -63,7 +63,7 @@ export default function Projects() {
           </div>
           {/* project title */}
           <div className="col-span-2">
-            <Tooltip content="MiKat's Github repository">
+            <Tooltip content="check out the repository">
               <a href="https://github.com/vitoradityafauzan/FE_WebMBTI_TA2_19104063" target="_blank" rel="noopener noreferrer">
                 <Button color="blue">
                   <FaGithub className="mr-2 h-5 w-5" />
@@ -112,12 +112,14 @@ export default function Projects() {
           </div>
           {/* project title */}
           <div className="col-span-2">
-            <a href="https://github.com/yehezkielermanto/SecondHandFE" target="_blank">
-              <Button color="blue">
-                <FaGithub className="mr-2 h-5 w-5" />
-                <h1 className="text-xl tracking-wide">Second Hand</h1>
-              </Button>
-            </a>
+            <Tooltip content="check out the repository">
+              <a href="https://github.com/yehezkielermanto/SecondHandFE" target="_blank">
+                <Button color="blue">
+                  <FaGithub className="mr-2 h-5 w-5" />
+                  <h1 className="text-xl tracking-wide">Second Hand</h1>
+                </Button>
+              </a>
+            </Tooltip>
           </div>
           {/* Project desc */}
           <div className="pr-32 md:w-auto text-justify border-0">
@@ -164,12 +166,14 @@ export default function Projects() {
           </div>
           {/* project title */}
           <div className="col-span-2">
-            <a href="https://gitfront.io/r/vitoRF/DMELvESeCxUM/TegalpingenSite/" target="_blank">
-              <Button color="blue">
-                <FaGithub className="mr-2 h-5 w-5" />
-                <h1 className="text-xl tracking-wide">Website SDN Tegal Pingen 1</h1>
-              </Button>
-            </a>
+            <Tooltip content="check out the repository">
+              <a href="https://gitfront.io/r/vitoRF/DMELvESeCxUM/TegalpingenSite/" target="_blank">
+                <Button color="blue">
+                  <FaGithub className="mr-2 h-5 w-5" />
+                  <h1 className="text-xl tracking-wide">Website SDN Tegal Pingen 1</h1>
+                </Button>
+              </a>
+            </Tooltip>
           </div>
           {/* Project desc */}
           <div className="pr-32 md:w-auto text-justify border-0">
@@ -212,12 +216,14 @@ export default function Projects() {
           </div>
           {/* project title */}
           <div className="col-span-2">
-            <a href="https://github.com/vitoradityafauzan/Company-Profile-Sarif-Industrie" target="_blank" rel="noopener noreferrer">
-              <Button color="blue">
-                <FaGithub className="mr-2 h-5 w-5" />
-                <h1 className="text-xl tracking-wide">Sarif Ind. Company Profile</h1>
-              </Button>
-            </a>
+            <Tooltip content="Check out the app">
+              <a href="https://sarifindustries-profile.vercel.app/" target="_blank" rel="noopener noreferrer">
+                <Button color="blue">
+                  <FaGithub className="mr-2 h-5 w-5" />
+                  <h1 className="text-xl tracking-wide">Sarif Ind. Company Profile</h1>
+                </Button>
+              </a>
+            </Tooltip>
           </div>
           {/* Project sneekpeak - dekstop */}
           <div className="col-end-3 invisible md:visible w-4 h-0 md:w-auto md:h-auto ml-auto border-0">
@@ -247,12 +253,13 @@ export default function Projects() {
           </div>
           {/* project title */}
           <div className="col-span-2">
-            <a href="https://github.com/vitoradityafauzan/dominoes-cards-vrf" target="_blank">
-              <Button color="blue">
-                <FaGithub className="mr-2 h-5 w-5" />
-                <h1 className="text-xl tracking-wide">Dominoes Card</h1>
-              </Button>
-            </a>
+            <Tooltip content="Check out the app">
+              <a href="https://dominoes-cards-vrf.vercel.app/" target="_blank">
+                <Button color="blue">
+                  <h1 className="text-xl tracking-wide">Dominoes Card</h1>
+                </Button>
+              </a>
+            </Tooltip>
           </div>
 
           {/* Project sneekpeak - dekstop */}
