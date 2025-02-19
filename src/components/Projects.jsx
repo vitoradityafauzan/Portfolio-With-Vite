@@ -219,7 +219,6 @@ export default function Projects() {
             <Tooltip content="Check out the app">
               <a href="https://sarifindustries-profile.vercel.app/" target="_blank" rel="noopener noreferrer">
                 <Button color="blue">
-                  <FaGithub className="mr-2 h-5 w-5" />
                   <h1 className="text-xl tracking-wide">Sarif Ind. Company Profile</h1>
                 </Button>
               </a>
